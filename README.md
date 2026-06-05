@@ -5,7 +5,7 @@
 **VJ Box** is a simple yet powerful application for creating animated visuals based on **SVG vectors**.
 It works as a **visual effects player**, transforming vector shapes into dynamic, audio-reactive experiences.
 
-📦 Go to the Release menu on the right ➡️ to download it for free 🆓
+https://vj-box-online-2.onrender.com/
 
 ![Demo](./gif.gif)
 ---
