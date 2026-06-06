@@ -1,127 +1,170 @@
-# 🎛️ VJ Box — SVG Visual Player
+# 👋 VJBox — SVG Visual Player
 
-## 🚀 About the Project
+Hello everyone! 👋
 
-**VJ Box** is a simple yet powerful application for creating animated visuals based on **SVG vectors**.
-It works as a **visual effects player**, transforming vector shapes into dynamic, audio-reactive experiences.
+I’ve been working on a side project called VJBox, and I’m excited to finally share it with you.
 
-https://vj-box-online-2.onrender.com/
+This project is strongly community-driven — I’m counting on you to help keep it alive by creating new effects, sharing ideas, and pushing its creative limits.
+
+Active contributors will be rewarded for their participation and creativity.
+
+---
+
+## 🚀 About VJBox
+
+**VJBox** is a creative platform where you can:
+
+* Upload **SVG files (up to 20 layers)**
+* Instantly animate your vectors
+* Apply **visual and audio-reactive effects** that follow the original shape of your artwork
 
 ![Demo](./gif.gif)
----
-
-## ✨ Key Features
-
-🎨 **Vector-Based Rendering**
-
-* Load SVG files with up to **20 layers**
-* Animations follow the original vector paths precisely
-
-🎚️ **Advanced Effects System**
-
-* Apply **unlimited effects per layer**
-* Organize and stack effects freely
-* Note: some effects can be performance-heavy ⚠️
-
-🎛️ **Full Parameter Control**
-
-* Real-time parameter adjustments
-* Supports:
-
-  * 🔄 LFO (automatic oscillation)
-  * ⏱️ Time-based animation
-  * 🎧 Audio-reactive controls (by frequency bands)
-
-🎧 **Audio Reactivity**
-
-* Capture input from your **microphone**
-* Or grab audio directly from a browser tab
-
----
 
 ## 🧩 Layer System
 
-📂 **Complete Layer Management**
+### 📂 Complete Layer Management
 
 * Solo layers
-* Bypass effects instantly
-* Multi-select using:
+* Instantly bypass effects
+* Multi-select support:
 
-  * `CTRL`
-  * `SHIFT`
+  * `CTRL` → individual selection
+  * `SHIFT` → range selection
 
-🧱 **Layer Grouping**
+---
+
+### 🧱 Layer Grouping
 
 * Group multiple layers
 * Apply effects to the entire group
 
 ---
 
-## 🌍 Global Effects
+## 🎛️ Effects System
 
-Effects that apply to the entire composition:
+* Stack **dozens of effects per layer**
 
-* 🌪️ Turbulence Displace
-* ⚡ Strobe Sequence
-* 🪞 Mirror
+### How to apply effects:
 
----
+1. Click an effect from the gallery
+2. Select a layer
+3. Apply
 
-## ⚙️ Performance & Optimization
+### Available types:
 
-💡 Tips for better performance:
-
-* Avoid excessive **Glow** usage
-* Use the top performance menu to:
-
-  * ❌ Disable heavy effects
-  * 🚀 Improve smoothness
+* Ready-made presets
+* Gallery effects
+* Custom effects
 
 ---
 
-## 💾 Presets
+## ⚡ Performance
 
-⚠️ Important:
+* Runs **directly in the browser**
+* **Low resource usage**
 
-* The current **alpha version does NOT save presets internally**
-* 👉 Save your presets externally
+### Features:
 
----
-
-## 📺 Video Output
-
-Currently, VJ Box:
-
-* ❌ Does NOT support **Spout** or **NDI**
-
-✔️ Workaround:
-
-* Hide the UI
-* Mirror your screen to your favorite VJ software
+* FPS limiter
+* Eco mode
 
 ---
 
-## 🎮 How to Use
+## 🔊 Audio Reactive
 
-1. 📥 Load an SVG
-2. 🎛️ Apply effects to layers
-3. 🎚️ Adjust parameters
-4. 🎧 Connect audio input
-5. 🔥 Enjoy the visuals!
+* Full control over:
+
+  * Sensitivity
+  * Frequency ranges (cut & limits)
+
+You can map audio to effect parameters, creating **smooth and controlled animations**.
 
 ---
 
-## 💬 Feedback
+## 🧠 Effect Creation (AI)
 
-🚧 This project is in **alpha stage**
-Your feedback is very important!
+* Easily create custom effects
+* Each effect includes:
 
-👉 Please report:
+  * Its own parameters
+  * Sliders
+  * Unique configurations
+
+> ⚠️ AI-generated effects may:
+>
+> * Produce artifacts
+> * Behave unpredictably
+> * Be performance-heavy
+
+👉 Tip: refine your prompts to improve consistency and performance
+
+---
+
+## 🧰 Extra Features
+
+### Global effects:
+
+* Strobe
+* Sequence
+* Turbulence Displace
+* Mirror
+
+### Time Mode (LFO):
+
+* Sine
+* Saw
+* Square
+* Random
+* Timeline for preset execution
+
+---
+
+## 📡 Integration / Output
+
+* No direct **NDI or Spout output yet**
+
+### Current workaround:
+
+* Hide UI
+* Capture via OBS Studio
+* Route using NDI to your VJ software
+
+---
+
+## 💾 Presets & Sharing
+
+* The current alpha version **does NOT save presets internally**
+  👉 Save your presets externally
+
+* Share with the community
+
+* Explore other users’ creations
+
+---
+
+## 👤 Account & Security
+
+* Google login
+* Fast and secure authentication
+* Your effects stay protected
+
+---
+
+## 🏆 Community
+
+* Effect voting system
+* Creator ranking
+* Rewards for active users
+
+---
+
+## 🚧 Alpha Stage
+
+This project is currently in **alpha stage** — your feedback is extremely important!
+
+### 👉 Please report:
 
 * Bugs 🐛
 * Suggestions 💡
 * Improvements 🚀
 
----
-
-🔥 *Load your vector, apply effects, feel the sound, and have fun!* 🎶
